@@ -20,7 +20,7 @@ Features
     Adds the merged layer to the project with the name “Combined_All_Layers”
 ```
 
-Requirements
+### Requirements
 
     QGIS with Python API (PyQGIS) installed
 
@@ -28,7 +28,7 @@ Requirements
 
     Write permission to the output folder (default: Desktop)
 
-Installation
+#### Installation
 
     Clone or download this repository to your local machine.
 
@@ -36,7 +36,7 @@ Installation
 
     Open QGIS and ensure the Processing toolbox is activated.
 
-Usage
+##### Usage
 
     Open the QGIS Python Console or set up a Processing script.
 
@@ -48,7 +48,7 @@ Usage
 
     Find the merged GeoJSON at ~/Desktop/combined_layers.geojson.
 
-Script Workflow
+### Script Workflow
 
     Layer Detection
 
@@ -76,10 +76,11 @@ Script Workflow
 
         Exports the fully assembled layer to GeoJSON
 
-Output
+## Output
 
 The final merged file is saved as:
-
+```
 ~/Desktop/combined_layers.geojson
+```
 
 The script also adds a new layer named Combined_All_Layers to your QGIS canvas.
