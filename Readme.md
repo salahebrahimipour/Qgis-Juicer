@@ -44,8 +44,8 @@ Features
     1. Open your QGIS  software. Under the Plugins menu, Open Python Console. Click on the 
         show editor icon on the Python console dock and open the code panel.
 
-    2 . You can either load the Python file using the open folder icon or simply paste the code. After
-        pasting the code, you can run it and follow the steps on the screen.
+    2 . You can either load the Python file using the open folder icon or simply paste the
+        code. After pasting the code, you can run it and follow the steps on the screen.
 
     3. Load your project containing the vector layers you wish to merge.
 
