@@ -1,4 +1,4 @@
-# Combined Layers GeoJSON Script
+# Combining Vector Layers into one GeoJSON file
 
 ### Overview
 
