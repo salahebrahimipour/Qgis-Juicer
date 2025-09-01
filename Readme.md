@@ -1,9 +1,10 @@
-Combined Layers GeoJSON Script
-Overview
+# Combined Layers GeoJSON Script
+
+### Overview
 
 This Python script for QGIS automatically detects all vector layers in the current project and merges them into a single GeoJSON file. It attempts three methods—native merge, in-memory merge with export, and manual feature copying—to ensure compatibility across different layer setups. Once the merge succeeds, the combined layer is added back into the QGIS map canvas.
 Features
-
+```
     Automatically finds every vector layer in a QGIS project
 
     Tries the built-in native:mergevectorlayers tool with layer IDs
@@ -17,6 +18,7 @@ Features
     Saves the final GeoJSON to the user’s Desktop as combined_layers.geojson
 
     Adds the merged layer to the project with the name “Combined_All_Layers”
+```
 
 Requirements
 
