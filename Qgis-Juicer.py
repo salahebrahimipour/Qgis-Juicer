@@ -1,5 +1,5 @@
-# --- START OF SCRIPT ---
-# This script automatically detects all layers and combines them into a single GeoJSON file
+# Combining different vector layers, Point, Line, and Polygon in one GeoJson file. Developed By Salahaddin Ebrahimipour. August 2025
+
 import processing
 from qgis.core import QgsProject, QgsVectorFileWriter
 import os
@@ -156,4 +156,3 @@ except Exception as e:
             print("Please check that your layers contain valid geometries and try again.")
 
 print("Script completed!")
-# --- END OF SCRIPT ---
