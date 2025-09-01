@@ -2,7 +2,7 @@
 
 ### Overview
 
-This Python script for QGIS automatically detects all vector layers in the current project and merges them into a single GeoJSON file. It attempts three methods—native merge, in-memory merge with export, and manual feature copying—to ensure compatibility across different layer setups. Once the merge succeeds, the combined layer is added back into the QGIS map canvas.
+This Python script, hereafter Qgis-Juicer, is developed for QGIS. It automatically detects all vector layers in the current project and merges them into a single GeoJSON file. It attempts three methods—native merge, in-memory merge with export, and manual feature copying—to ensure compatibility across different layer setups. Once the merge succeeds, the combined layer is added back into the QGIS map canvas.
 Features
 ```
     Automatically finds every vector layer in a QGIS project
