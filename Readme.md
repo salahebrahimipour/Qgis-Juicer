@@ -30,18 +30,22 @@ Features
 
 #### Installation
 
-    Clone or download this repository to your local machine or copy the entire code.
+    Clone or download this repository to your local machine or
+        copy the entire code.
 
-    Copy the script file into your QGIS scripts folder or any accessible directory on your computer, e.g. Desktop.
+    Copy the script file into your QGIS scripts folder or any
+        accessible directory on your computer, e.g. Desktop.
 
 ##### Usage
 
     Open the QGIS Python Console or set up a Processing script.
 
 
-    1. Open your QGIS  software. Under the Plugins menu, Open Python Console. Click on the show editor icon on the Python console dock and open the code panel.
+    1. Open your QGIS  software. Under the Plugins menu, Open Python Console. Click on the 
+        show editor icon on the Python console dock and open the code panel.
 
-    2 . You can either load the Python file using the open folder icon or simply paste the code. After pasting the code, you can run it and follow the steps on the screen.
+    2 . You can either load the Python file using the open folder icon or simply paste the code. After
+        pasting the code, you can run it and follow the steps on the screen.
 
     3. Load your project containing the vector layers you wish to merge.
 
